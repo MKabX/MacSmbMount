@@ -4,6 +4,10 @@ Plugin for [fman.io](https://fman.io) that enables you mount and unmount SMB fil
 
 You can install this plugin by pressing `<shift+cmd+p>` to open the command pallet. Then type `install plugin`. Look for the `MacSmbMount` plugin and select it.
 
+## Disclaimer
+
+This plugin heavily depends on applescript and the osascript binary. It is therefore only useable under MacOS.
+
 ## Mount a SMB share
 
 The functions are available via the Command Pallete. Just press `<shift+cmd+p>` and search for `Mount smb volume`. A dialogue will pop up where you can enter the server address of your share.
